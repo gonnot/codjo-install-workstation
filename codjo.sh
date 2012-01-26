@@ -9,6 +9,7 @@
 # ######################################################################
 
 CODJO_ROOT=~/java/codjo
+DEFAULT_GITHUB_ACCOUNT=codjo
 
 # ----------------------------------------------------------------------
 # Function declaration
@@ -47,7 +48,7 @@ function clone_artifact() {
     if ! [ -d $CODJO_ROOT ]; then mkdir -p $CODJO_ROOT; fi
 
     if [ -z "$GITHUB_ACCOUNT" ]; then
-        GITHUB_ACCOUNT=codjo
+        GITHUB_ACCOUNT=$DEFAULT_GITHUB_ACCOUNT
     fi
 
     echo ' '
