@@ -3,7 +3,7 @@ OSX Contributor - codjo.net
 
 This project contains all the needed information to contribute to [framework codjo.net](http://codjo.net) in an OSX environement.
 
-# Prerequis
+# Pre-requisites
 
 * One mac workstation or laptop :)
 * Mac os x - snowleopard or lion
@@ -30,7 +30,7 @@ To validate that everything works.
 mvn install -P codjo
 ```
 
-# Optionnal Install
+# Optional Install
 
 ### Smart GIT completion
 
