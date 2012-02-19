@@ -5,6 +5,6 @@ This project contains all the needed information to contribute to [framework cod
 
 # Operating systems
 
-* For Mac Os X - see [osx/readme.md](./codjo-install-osx/tree/master/osx)
-* For Windows - see [windows/readme.md](./codjo-install-osx/tree/master/windows)
+* For Mac Os X - see [osx/readme.md](./codjo-install-workstation/tree/master/osx)
+* For Windows - see [windows/readme.md](./codjo-install-workstation/tree/master/windows)
 
