@@ -3,8 +3,8 @@ OSX Contributor - codjo.net
 
 This project contains all the needed information to contribute to [framework codjo.net](http://codjo.net).
 
-# Operating system
+# Operating systems
 
-* For Mac Os X - see [osx/readme.md](./osx/)
-* For Windows - see [windows/readme.md](./windows/)
+* For Mac Os X - see [osx/readme.md](./codjo-install-osx/tree/master/osx)
+* For Windows - see [windows/readme.md](./codjo-install-osx/tree/master/windows)
 
