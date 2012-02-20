@@ -66,7 +66,7 @@ Add one alias for calling ```. codjo.sh``` and some auto-completion
       . codjo.sh $1 $2 $3
     }
 
-    complete -W "administration agent aspect pom test util --help --remove --list gonnot codjo" codjo
+    complete -W "--help --remove --list gonnot codjo agent test util logging xml aspect expression fake-db  jconnect reflect i18n webservices taskpool variable ontology product-ontology ads crypto confluence database database-analyse tokio sql datagen release-test gui-toolkit security mad globs workflow notification administration referential broadcast segmentation historic-audit imports shipment control standalone-common standalone-client" codjo
 ```
 
 .
