@@ -5,15 +5,14 @@ This module contains all the needed information to contribute to [framework codj
 
 # Pre-requisites
 
-* One mac workstation or laptop :)
-* Mac os x - snowleopard or lion
+* One windows workstation
 
 # Install
 
 ### Git & Github
 
 * Install GIT from git-scm.com
-* Follow github setup guide : http://help.github.com/mac-set-up-git/  
+* Follow github setup guide : http://help.github.com/win-set-up-git/  
 
 ### Codjo Specific stuff
 
