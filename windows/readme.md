@@ -49,7 +49,7 @@ Smart git completion in the terminal. Just have to call the usegit function in a
 ```
 
 * Add the git completion file in your home folder - .git-completion.sh
-  ```curl https://raw.github.com/gonnot/codjo-install-osx/master/codjo.sh > ~/.git-completion.sh```
+  ```curl https://raw.github.com/gonnot/codjo-install-windows/master/codjo.sh > ~/.git-completion.sh```
 
 ### Codjo completion and alias
 
