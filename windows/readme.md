@@ -1,4 +1,4 @@
-OSX Contributor - codjo.net
+Windows Contributor - codjo.net
 ============================
 
 This module contains all the needed information to contribute to [framework codjo.net](http://codjo.net) in an Windows environment.
