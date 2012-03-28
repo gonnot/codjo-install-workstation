@@ -1,7 +1,7 @@
 OSX Contributor - codjo.net
 ============================
 
-This module contains all the needed information to contribute to [framework codjo.net](http://codjo.net) in an OSX environement.
+This module contains all the needed information to contribute to [framework codjo.net](http://codjo.net) in an Windows environment.
 
 # Pre-requisites
 
@@ -18,11 +18,8 @@ This module contains all the needed information to contribute to [framework codj
 
 * Declare the maven2 codjo binary repositories : update or create your maven2 ```settings.xml```
   located in ```~/.m2``` (use the template found in this github repository)
-* Install the ```codjo.sh``` script in your path
+* Install the ```codjo.sh``` script in your path and change the CODJO_ROOT in the script with your root
 
-### Trash command
-
-* Install the [trash command](http://hasseg.org/trash/) from Ali Rantakari in your path
 
 ### Tests install
 
