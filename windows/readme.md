@@ -14,11 +14,21 @@ This module contains all the needed information to contribute to [framework codj
 * Install GIT from git-scm.com
 * Follow github setup guide : http://help.github.com/win-set-up-git/  
 
+### Git & Github
+
+* Install java jdk5 ou jdk6: http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase5-419410.html
+* Install maven (2.0.6 ou 3.x)  : http://archive.apache.org/dist/maven/binaries/maven-2.0.6-bin.zip
+
+
 ### Codjo Specific stuff
 
 * Declare the maven2 codjo binary repositories : update or create your maven2 ```settings.xml```
   located in ```~/.m2``` (use the template found in this github repository)
+
+Git bash enhancement:
+* Install ```.bash_profile``` in Windows user profile (e.g. C:\Users\marcona on W7). Change the installation paths in specific functions (jdk15, jdk16, maven2).
 * Install the ```codjo.sh``` script in your path and change the CODJO_ROOT in the script with your root
+  NB: ```codjo.sh```is the same than the uniw install except the remove function and the clone function (wich uses https protocol instead of git)
 
 
 ### Tests install
@@ -29,6 +39,13 @@ To validate that everything works.
 . codjo.sh util
 mvn install -P codjo
 ```
+
+NB: you may need to install pom in SNAPSHOT version before 
+```
+codjo pom
+mvn install -P codjo
+```
+ 
 
 # Optional Install
 

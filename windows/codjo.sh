@@ -1,7 +1,7 @@
 #!/bin/bash
 # ######################################################################
 #
-# Codjo script for Windows (1.5-snapshot)
+# Codjo script for Windows (1.6-snapshot)
 # --------------------
 #
 #   See https://github.com/gonnot/codjo-install-windows
@@ -56,7 +56,8 @@ function clone_artifact() {
     echo ' '
 
     cd $CODJO_ROOT
-    git clone git@github.com:$GITHUB_ACCOUNT/codjo-$ARTIFACT_ID.git codjo-$ARTIFACT_ID
+#    git clone git@github.com:$GITHUB_ACCOUNT/codjo-$ARTIFACT_ID.git codjo-$ARTIFACT_ID
+    git clone https://$GITHUB_ACCOUNT@github.com/$GITHUB_ACCOUNT/codjo-$ARTIFACT_ID.git codjo-$ARTIFACT_ID
     cd $CODJO_ROOT/codjo-$ARTIFACT_ID
     git checkout integration
 }
@@ -70,8 +71,8 @@ function remove_artifact() {
     echo ' Remove '$CODJO_ROOT'/codjo-'$ARTIFACT_ID
     echo ' '
 
-#    rm -Rf $CODJO_ROOT//codjo-$ARTIFACT_ID
-    trash $CODJO_ROOT/codjo-$ARTIFACT_ID
+    rm -Rf $CODJO_ROOT//codjo-$ARTIFACT_ID
+#    trash $CODJO_ROOT/codjo-$ARTIFACT_ID
 }
 
 # list local artifact
