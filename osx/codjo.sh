@@ -28,6 +28,9 @@ show_usage() {
     echo "  * to list local codjo artifacts "
     echo "     codjo -l/--list"
     echo
+    echo "  * to add a new remote to the specified github account repository (read/only via HTTP) "
+    echo "     codjo --add-remote <github account>"
+    echo
 }
 
 # change terminal title (or try to...)
@@ -86,6 +89,29 @@ function list_artifacts() {
     echo
 }
 
+# add a new remote
+function add_remote() {
+    GITHUB_ACCOUNT=$1
+    NEW_GITHUB_URL=https://github.com/$GITHUB_ACCOUNT/${PWD##*/}.git
+
+    if [ -z "$GITHUB_ACCOUNT" ]; then
+        echo
+        echo 'Error  : github account has not been specified' 
+        echo
+        echo 'Syntax : codjo --add-remote <github account>' 
+        echo
+        echo 'Example: codjo --add-remote johndoe' 
+        echo
+        return;
+    fi
+
+    echo
+    echo "  Add a new remote called : "$GITHUB_ACCOUNT
+    echo "   with the following URL : "$NEW_GITHUB_URL 
+    echo
+	git remote add $GITHUB_ACCOUNT $NEW_GITHUB_URL
+}
+
 # ----------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------
@@ -107,6 +133,12 @@ case $1 in
     # --- List local artifacts
     # ---------------------------
     "-l"|"--list") list_artifacts
+    ;;
+
+    # ---------------------------
+    # --- add a new remote
+    # ---------------------------
+    "--add-remote") add_remote $2
     ;;
 
     # ---------------------------
