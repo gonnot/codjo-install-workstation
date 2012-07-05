@@ -1,12 +1,12 @@
 OSX Contributor - codjo.net
 ============================
 
-This module contains all the needed information to contribute to [framework codjo.net](http://codjo.net) in an OSX environement.
+This module contains all the needed information to contribute to [framework codjo.net](http://codjo.net) in an OSX environment.
 
-# Pre-requisites
+# Prerequisites
 
 * One mac workstation or laptop :)
-* Mac os x - snowleopard or lion
+* Mac os x - snow-leopard or lion
 
 # Install
 
