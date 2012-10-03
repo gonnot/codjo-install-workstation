@@ -18,7 +18,7 @@ This module contains all the needed information to contribute to [framework codj
 ### Codjo Specific stuff
 
 * Declare the maven2 codjo binary repositories : update or create your maven2 ```settings.xml```
-  located in ```~/.m2``` (use the template found in this github repository)
+  located in ```~/.m2``` (use the template found in this github repository [here](https://github.com/gonnot/codjo-install-workstation/tree/master/common/m2)
 * Install the ```codjo.sh``` script in your path
 
 ### Trash command
@@ -52,8 +52,8 @@ Smart git completion in the terminal. Just have to call the usegit function in a
     }
 ```
 
-* Add the git completion file in your home folder - .git-completion.sh
-  ```curl https://raw.github.com/gonnot/codjo-install-osx/master/codjo.sh > ~/.git-completion.sh```
+* Add the git completion file in your home folder - [.git-completion.sh](https://github.com/gonnot/codjo-install-workstation/blob/master/common/git/.git-completion.sh)
+  ```curl https://raw.github.com/gonnot/codjo-install-workstation/master/common/git/.git-completion.sh > ~/.git-completion.sh```
 
 ### Codjo completion and alias
 
